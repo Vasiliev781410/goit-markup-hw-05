@@ -585,7 +585,14 @@ body{
     text-decoration: none;
     color:  var(--primary-text-color);     
 }
-
+.project-link:hover .project-card-overlay,
+.project-link:focus .project-card-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    opacity: 1;
+}   
 .project-img-container{
     position: relative;   
 
@@ -605,11 +612,11 @@ body{
     opacity: 0;
 }
 .project-types-li:hover .project-card-overlay{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;    
-    opacity: 1;
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100% */;    
+    /* opacity: 1; */
 }   
 .project-text-overlay{ 
     font-size: 18px;
